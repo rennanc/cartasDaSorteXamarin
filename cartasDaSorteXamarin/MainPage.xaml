@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:cartasDaSorteXamarin"
+             x:Class="cartasDaSorteXamarin.MainPage">
+
+    <StackLayout Orientation="Vertical">
+        <Button
+            Text="teste"
+            
+            />
+        <Label 
+           Text="{Binding quantidadeVitoria}"/>
+        <ScrollView Orientation="Horizontal">
+            <StackLayout Orientation="Horizontal">
+                <Image x:Name="image1" ClassId="1" Source="back_card.jpg" WidthRequest="200" HeightRequest="400">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer
+                            Tapped="OnTapGestureRecognizerTapped"/>
+                    </Image.GestureRecognizers>
+                </Image>
+                <Image x:Name="image2" ClassId="2" Source="back_card.jpg" WidthRequest="200" HeightRequest="400">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer
+                            Tapped="OnTapGestureRecognizerTapped"/>
+                    </Image.GestureRecognizers>
+                </Image>
+                <Image x:Name="image3" ClassId="3" Source="back_card.jpg" WidthRequest="200" HeightRequest="400">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer
+                            Tapped="OnTapGestureRecognizerTapped"/>
+                    </Image.GestureRecognizers>
+                </Image>
+            </StackLayout>
+        </ScrollView>
+        <!-- Place new controls here -->
+    	<Label Text="Welcome to Xamarin.Forms!" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+    </StackLayout>
+
+</ContentPage>
