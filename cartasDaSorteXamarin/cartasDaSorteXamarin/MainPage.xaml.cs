@@ -43,9 +43,12 @@ namespace cartasDaSorteXamarin
             numeroVencedor = Enumerable.Range(1, 3).OrderBy(x => rnd.Next()).Take(1).FirstOrDefault();
         }
 
-        private void botaovai_Clicked(object sender, EventArgs e)
+        private void reiniciar_Clicked(object sender, EventArgs e)
         {
             randomCards();
+            image1.Source = ImageSource.FromFile("back_card.jpg");
+            image2.Source = ImageSource.FromFile("back_card.jpg");
+            image3.Source = ImageSource.FromFile("back_card.jpg");
         }
     }
 }

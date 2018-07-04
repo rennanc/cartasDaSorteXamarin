@@ -6,8 +6,8 @@
 
     <StackLayout Orientation="Vertical">
         <Button
-            Text="teste"
-            
+            Text="Reiniciar Jogo"
+            Clicked="reiniciar_Clicked"
             />
         <Label 
            Text="{Binding quantidadeVitoria}"/>
