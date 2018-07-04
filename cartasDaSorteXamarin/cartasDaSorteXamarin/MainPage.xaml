@@ -9,8 +9,8 @@
             Text="Reiniciar Jogo"
             Clicked="reiniciar_Clicked"
             />
-        <Label 
-           Text="{Binding quantidadeVitoria}"/>
+        <Label Text="Quantidade de Acertos: 0" x:Name="textVitoria"/>
+        <Label Text="Quantidade de Erros: 0" x:Name="textErros"/>
         <ScrollView Orientation="Horizontal">
             <StackLayout Orientation="Horizontal">
                 <Image x:Name="image1" ClassId="1" Source="back_card.jpg" WidthRequest="200" HeightRequest="400">
@@ -33,10 +33,6 @@
                 </Image>
             </StackLayout>
         </ScrollView>
-        <!-- Place new controls here -->
-    	<Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
     </StackLayout>
 
 </ContentPage>

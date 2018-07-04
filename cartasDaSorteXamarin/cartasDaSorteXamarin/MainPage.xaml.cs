@@ -9,6 +9,7 @@ namespace cartasDaSorteXamarin
 	{
 
         int QuantidadeVitoria = 0;
+        int QuantidadeErros = 0;
         int numeroVencedor = 0;
 
 
@@ -30,10 +31,17 @@ namespace cartasDaSorteXamarin
             {
                 imageSender.Source = ImageSource.FromFile("a_card.jpg");
                 QuantidadeVitoria++;
+                textVitoria.Text = "Quantidade de Vitórias: " + QuantidadeVitoria;
+                DisplayAlert("Parabéns", "Você ganhou", "OK");
+                habilitarAcaoCarta(false);
             }
             else
             {
                 imageSender.Source = ImageSource.FromFile("jocker_card.jpg");
+                QuantidadeErros++;
+                textErros.Text = "Quantidade de Erros: " + QuantidadeErros;
+                DisplayAlert("Errou", "Você perdeu", "OK");
+                habilitarAcaoCarta(false);
             }
         }
 
@@ -45,10 +53,23 @@ namespace cartasDaSorteXamarin
 
         private void reiniciar_Clicked(object sender, EventArgs e)
         {
+            reiniciaJogo();
+        }
+
+        void reiniciaJogo()
+        {
+            habilitarAcaoCarta(true);
             randomCards();
             image1.Source = ImageSource.FromFile("back_card.jpg");
             image2.Source = ImageSource.FromFile("back_card.jpg");
             image3.Source = ImageSource.FromFile("back_card.jpg");
+        }
+
+        void habilitarAcaoCarta(bool tapCarta)
+        {
+            image1.IsEnabled = tapCarta;
+            image2.IsEnabled = tapCarta;
+            image3.IsEnabled = tapCarta;
         }
     }
 }
