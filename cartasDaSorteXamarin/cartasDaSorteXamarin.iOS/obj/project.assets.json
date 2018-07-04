@@ -665,11 +665,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\renna\\source\\repos\\cartasDaSorteXamarin\\cartasDaSorteXamarin\\cartasDaSorteXamarin.iOS\\cartasDaSorteXamarin.iOS.csproj",
+      "projectUniqueName": "C:\\Projetos\\cartasDaSorteXamarin\\cartasDaSorteXamarin\\cartasDaSorteXamarin.iOS\\cartasDaSorteXamarin.iOS.csproj",
       "projectName": "cartasDaSorteXamarin.iOS",
-      "projectPath": "C:\\Users\\renna\\source\\repos\\cartasDaSorteXamarin\\cartasDaSorteXamarin\\cartasDaSorteXamarin.iOS\\cartasDaSorteXamarin.iOS.csproj",
+      "projectPath": "C:\\Projetos\\cartasDaSorteXamarin\\cartasDaSorteXamarin\\cartasDaSorteXamarin.iOS\\cartasDaSorteXamarin.iOS.csproj",
       "packagesPath": "C:\\Users\\renna\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\renna\\source\\repos\\cartasDaSorteXamarin\\cartasDaSorteXamarin\\cartasDaSorteXamarin.iOS\\obj\\",
+      "outputPath": "C:\\Projetos\\cartasDaSorteXamarin\\cartasDaSorteXamarin\\cartasDaSorteXamarin.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [

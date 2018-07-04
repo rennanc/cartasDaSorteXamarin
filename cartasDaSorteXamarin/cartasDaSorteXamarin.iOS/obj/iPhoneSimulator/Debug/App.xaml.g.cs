@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("cartasDaSorteXamarin.Droid.App.xaml", "App.xaml", typeof(global::cartasDaSorteXamarin.App))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("cartasDaSorteXamarin.iOS.App.xaml", "App.xaml", typeof(global::cartasDaSorteXamarin.App))]
 
 namespace cartasDaSorteXamarin {
     

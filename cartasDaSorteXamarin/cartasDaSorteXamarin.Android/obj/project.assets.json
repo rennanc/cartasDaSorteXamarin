@@ -747,11 +747,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\renna\\source\\repos\\cartasDaSorteXamarin\\cartasDaSorteXamarin\\cartasDaSorteXamarin.Android\\cartasDaSorteXamarin.Android.csproj",
+      "projectUniqueName": "C:\\Projetos\\cartasDaSorteXamarin\\cartasDaSorteXamarin\\cartasDaSorteXamarin.Android\\cartasDaSorteXamarin.Android.csproj",
       "projectName": "cartasDaSorteXamarin.Android",
-      "projectPath": "C:\\Users\\renna\\source\\repos\\cartasDaSorteXamarin\\cartasDaSorteXamarin\\cartasDaSorteXamarin.Android\\cartasDaSorteXamarin.Android.csproj",
+      "projectPath": "C:\\Projetos\\cartasDaSorteXamarin\\cartasDaSorteXamarin\\cartasDaSorteXamarin.Android\\cartasDaSorteXamarin.Android.csproj",
       "packagesPath": "C:\\Users\\renna\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\renna\\source\\repos\\cartasDaSorteXamarin\\cartasDaSorteXamarin\\cartasDaSorteXamarin.Android\\obj\\",
+      "outputPath": "C:\\Projetos\\cartasDaSorteXamarin\\cartasDaSorteXamarin\\cartasDaSorteXamarin.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [

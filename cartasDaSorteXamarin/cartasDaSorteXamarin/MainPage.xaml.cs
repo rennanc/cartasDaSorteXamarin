@@ -37,12 +37,6 @@ namespace cartasDaSorteXamarin
             }
         }
 
-        void botaovai_Clicked(object sender, EventArgs args)
-        {
-            randomCards();
-            
-        }
-
         void randomCards()
         {
             var rnd = new Random();
@@ -51,7 +45,7 @@ namespace cartasDaSorteXamarin
 
         private void botaovai_Clicked(object sender, EventArgs e)
         {
-
+            randomCards();
         }
     }
 }
